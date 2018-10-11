@@ -1,0 +1,76 @@
+$shadow: 0.1rem 0.1rem 0.5rem black;
+$hp: 100px;
+$cen: center;
+html {
+	height: 100%;
+}
+h1 {
+	margin-bottom: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	font-family: 'Sigmar One', cursive;
+	background-color: lighten(blue, 20);
+}
+
+#root {
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: $cen;
+	flex-direction: column;
+}
+
+.sound-board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: $hp;
+
+	.sound-button {
+		border: thin solid black;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 5px;
+		box-shadow: $shadow;
+		height: $hp;
+		width: $hp;
+		background-position: $cen;
+		background-size: cover;
+		animation: fade 2s linear;
+	}
+}
+nav {
+	font-size: 1.5rem;
+	ul {
+		display: flex;
+		justify-content: $cen;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	li {
+		list-style: none;
+		margin: 10px;
+	}
+	a {
+		color: blue;
+		text-decoration: none;
+	}
+	a:hover {
+		text-shadow: $shadow;
+	}
+	a.active {
+		color: darken(blue, 25);
+		font-weight: bolder;
+	}
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}

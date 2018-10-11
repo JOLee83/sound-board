@@ -1,0 +1,65 @@
+{
+	"tech": {
+		"title": "Tech",
+		"sounds": [
+			{
+				"thumb": "http://media.linkonlineworld.com/img/large/2018/8/26/2018_8_26_10_9_47_901.jpg",
+				"sound": "Tech/Windows95"
+			},
+			{
+				"thumb": "http://images.highspeedbackbone.net/skuimages/large/CNET-YYD2-USR5686G.jpg",
+				"sound": "Tech/Modem"
+			},
+			{
+				"thumb": "https://images-na.ssl-images-amazon.com/images/I/41pr1AmGX5L.jpg",
+				"sound": "Tech/GeigerCounter"
+			},
+			{
+				"thumb": "https://target.scene7.com/is/image/Target/GUEST_b4828844-6401-42d2-b3b4-8dd9206da26b?wid=488&hei=488&fmt=pjpeg",
+				"sound": "Tech/Keyboard"
+			}
+		]
+	},
+	"animal": {
+		"title": "Animals",
+		"sounds": [
+			{
+				"thumb": "https://petco.scene7.com/is/image/PETCO/849430-center-3?$ProductDetail-large$",
+				"sound": "Animals/guineaPig"
+			},
+			{
+				"thumb": "https://le-www-live-s.legocdn.com/sc/media/lessons/wedo-2/wedo-projects/images/frogs-metamorphosis-project-image-feb9db40c70bcda57e12f5671d4bc278.jpg?fit=around|700:700&crop=700:700;*,*",
+				"sound": "Animals/frogs"
+			},
+			{
+				"thumb": "http://www.zooborns.com/.a/6a010535647bf3970b01538f3b2801970b-500wi",
+				"sound": "Animals/monkey"
+			},
+			{
+				"thumb": "https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/r/raccoon_thumb.ngsversion.1485815402351.adapt.1900.1.JPG",
+				"sound": "Animals/raccoon"
+			}
+		]
+	},
+	"starwars": {
+		"title": "Star Wars",
+		"sounds": [
+			{
+				"thumb": "https://lumiere-a.akamaihd.net/v1/images/solo-chewbacca-main_80768fa8.jpeg?region=8%2C0%2C1543%2C868&width=768",
+				"sound": "Starwars/ChewbaccaWookieNoise"
+			},
+			{
+				"thumb": "http://www.sciencefriday.com/wp-content/uploads/2015/12/lightsaber6.jpg",
+				"sound": "Starwars/LightsaberTurnOn"
+			},
+			{
+				"thumb": "https://image.biccamera.com/img/00000003363018_A01.jpg",
+				"sound": "Starwars/R2D2Again"
+			},
+			{
+				"thumb": "http://static.tvtropes.org/pmwiki/pub/images/TIE_X-wing_duel_826.jpg",
+				"sound": "Starwars/StarWarsDogfight"
+			}
+		]
+	}
+}
